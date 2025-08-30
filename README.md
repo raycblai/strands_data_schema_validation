@@ -82,18 +82,14 @@ Example output:
   "headers": {
     "Content-Type": "application/json"
   },
-  "body": {
-    "message": "Success",
-    "data": {
-      "records_inspected": 15,
-      "valid_records": 14,
-      "invalid_records": 1,
-      "records_written": 14,
-      "execution_time": 12.45
-    }
-  }
+  "body": "{\"message\": \"Success\", \"data\": {\"records_inspected\": 15, \"valid_records\": 11, \"invalid_records\": 4, \"records_written\": 11, \"execution_time\": 65.56}}",
+  "isBase64Encoded": false
 }
 ```
+
+## Sample DynamoDB Output
+
+![Sample DynamoDB Output](ETLDB_Sample_output.png)
 
 ## File Structure
 
